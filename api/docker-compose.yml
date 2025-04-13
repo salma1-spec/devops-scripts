@@ -5,7 +5,7 @@ services:
     image: salma5/backend-image:latest
     container_name: backend-api
     environment:
-      - MONGO_URI=mongodb://root:pass-123@51.77.210.239:27017/book_store?authSource=admin
+      - MONGO_URI=mongodb://root:pass-123@92.113.147.126:27017/book_store?authSource=admin
       - PORT=3001  # Port to run the backend API
     ports:
       - '3001:3001'
